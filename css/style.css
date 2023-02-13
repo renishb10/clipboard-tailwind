@@ -691,6 +691,11 @@ h3 {
   background-color: hsl(171 66% 44% / var(--tw-bg-opacity));
 }
 
+.bg-blue-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
 .p-4 {
   padding: 1rem;
 }
