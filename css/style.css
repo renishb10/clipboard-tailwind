@@ -529,6 +529,18 @@ h3 {
   --tw-backdrop-sepia:  ;
 }
 
+.relative {
+  position: relative;
+}
+
+.right-\[50\%\] {
+  right: 50%;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -548,12 +560,20 @@ h3 {
   margin-bottom: 2.5rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-24 {
   margin-bottom: 6rem;
 }
 
 .mb-40 {
   margin-bottom: 10rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .flex {
@@ -568,12 +588,22 @@ h3 {
   max-width: 48rem;
 }
 
+.max-w-md {
+  max-width: 28rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
 
 .justify-center {
   justify-content: center;
+}
+
+.space-y-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
 }
 
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
@@ -598,11 +628,6 @@ h3 {
 
 .p-4 {
   padding: 1rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .px-8 {
@@ -631,6 +656,10 @@ h3 {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .leading-9 {
@@ -666,6 +695,8 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   max-width: 72rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
   text-align: center;
 }
 
@@ -686,8 +717,26 @@ body {
 }
 
 @media (min-width: 768px) {
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:mb-60 {
+    margin-bottom: 15rem;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:space-x-32 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(8rem * var(--tw-space-x-reverse));
+    margin-left: calc(8rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -700,5 +749,13 @@ body {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .md\:pl-16 {
+    padding-left: 4rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 }
