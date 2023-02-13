@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch",
-    "build": "tailwindcss -i ./input.css -o ./css/style.css"
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "deploy": "gh-pages -d ."
   },
   "author": "Renish Bhaskaran",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "tailwindcss": "^3.2.6"
   }
 }
