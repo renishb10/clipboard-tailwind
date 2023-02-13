@@ -8,4 +8,4 @@ This is a simple Tailwind CSS tryout project
 - CSS3
 - TailwindCSS
 
-Link:
+## Link: https://renishb10.github.io/clipboard-tailwind/
